@@ -40,6 +40,10 @@ EXPORT_SYMBOL(br_ssl_engine_sendapp_ack);
 EXPORT_SYMBOL(br_pem_decoder_init);
 EXPORT_SYMBOL(br_pem_decoder_event);
 EXPORT_SYMBOL(br_pem_decoder_push);
+EXPORT_SYMBOL(br_rsa_compute_pubexp_get_default);
+EXPORT_SYMBOL(br_rsa_compute_modulus_get_default);
+EXPORT_SYMBOL(br_skey_decoder_push);
+EXPORT_SYMBOL(br_skey_decoder_init);
 
 static int __init bearssl_init(void)
 {
